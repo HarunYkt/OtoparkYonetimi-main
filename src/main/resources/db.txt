@@ -1,0 +1,18 @@
+Relations (İlişkiler)
+User ve Vehicle Arasındaki İlişki: Bir kullanıcı bir veya birden fazla araca sahip olabilir.
+Bu ilişki One-to-Many (Bir kullanıcının birden fazla aracı olabilir) olarak tanımlanabilir.
+
+User ve ParkingHistory Arasındaki İlişki: Bir kullanıcı birden fazla park geçmişine sahip olabilir.
+ Bu ilişki de One-to-Many (Bir kullanıcı birden fazla park geçmişi kaydına sahip olabilir) şeklinde tanımlanır.
+
+Vehicle ve ParkingHistory Arasındaki İlişki: Bir araç, park geçmişinde yer alabilir. Bu ilişki One-to-Many
+ (Bir aracın birden fazla park geçmişi olabilir) şeklinde tanımlanabilir.
+
+ParkingSpot ve ParkingHistory Arasındaki İlişki: Bir park alanı bir veya daha fazla park geçmişine sahip olabilir.
+ Bu ilişki de One-to-Many (Bir park alanı birden fazla araç tarafından kullanılabilir) olarak tanımlanabilir.
+
+Payment ve ParkingHistory Arasındaki İlişki: Her ödeme, bir park geçmişine karşılık gelir. Bu ilişki One-to-One
+(Bir ödeme bir park geçmişi kaydına denk gelir) şeklinde tanımlanabilir.
+
+Discount ve User Arasındaki İlişki: Bir indirim bir kullanıcı için geçerli olabilir.
+ İndirimler belirli koşullara göre belirlenebilir ve Many-to-Many ilişki olabilir.
